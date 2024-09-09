@@ -1,0 +1,25 @@
+{
+  "name": "travel-road-tg-bot",
+  "version": "1.0.0",
+  "description": "Simple telegram bot for travel",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "tg",
+    "tg-bot",
+    "travel-bot"
+  ],
+  "author": "Eugene Tuzin (LimonkaTM)",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.14.0",
+    "sequelize": "^6.37.3"
+  }
+}
